@@ -7,6 +7,6 @@ export default defineNuxtConfig({
         ssr: {
             noExternal: ['vuetify']
         }
-    },
-    devtools: {enabled: true}
+    }
+//    devtools: {enabled: true}
 })

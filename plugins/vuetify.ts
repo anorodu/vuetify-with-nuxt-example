@@ -8,9 +8,9 @@ import '@fortawesome/fontawesome-free/css/all.css'
 
 export default defineNuxtPlugin(nuxtApp => {
     const vuetify = createVuetify({
-        theme: {
-          defaultTheme: 'dark'
-        },
+        // theme: {
+        //   defaultTheme: 'dark'
+        // },
         ssr:true,
         components,
         directives
